@@ -6,7 +6,7 @@
 /*   By: aabounak <aabounak@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/27 16:38:15 by aabounak          #+#    #+#             */
-/*   Updated: 2021/11/27 17:30:39 by aabounak         ###   ########.fr       */
+/*   Updated: 2021/11/27 19:52:01 by aabounak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,5 +26,7 @@
 using namespace std;
 using namespace std::chrono;
 
-void    naiveOptimizedSearch( string pat, string txt );
-void    boyerMooreSearch( string text, string pat );
+vector<string>  parse( string path );
+void            naiveSearch( string pat, string txt );
+void            naiveOptimizedSearch( string pat, string txt );
+void            boyerMooreSearch( string text, string pat );

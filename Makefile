@@ -1,8 +1,10 @@
 NAME = a.out
 CC = g++
 FLAGS = -std=c++11
-SRC = main.cpp \
+SRC = __main__.cpp \
+parse.cpp \
 Boyer-Moore.cpp \
+naiveSearch.cpp \
 naiveOptimizedSearch.cpp \
 stringGenerator.cpp \
 
