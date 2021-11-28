@@ -1,4 +1,4 @@
-# How I thought of everything
+# Thought Process
 
 ## Compiling for C++
 You can change the dataset on __main__.cpp line 37.
