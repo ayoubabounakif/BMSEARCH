@@ -6,7 +6,7 @@
 /*   By: aabounak <aabounak@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/25 14:59:13 by aabounak          #+#    #+#             */
-/*   Updated: 2021/11/27 20:00:41 by aabounak         ###   ########.fr       */
+/*   Updated: 2021/11/28 14:05:57 by aabounak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,6 +32,7 @@ void    calculateTime( T start, string algorithm ) {
 */
 
 void    __main__( void ) {
+
     string pattern = "ATTTGACGCG";
     vector<string> vec = parse("./files/BIG_DNA_sequence.txt");
     vector<string>::iterator it;

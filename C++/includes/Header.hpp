@@ -6,7 +6,7 @@
 /*   By: aabounak <aabounak@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/27 16:38:15 by aabounak          #+#    #+#             */
-/*   Updated: 2021/11/27 19:52:01 by aabounak         ###   ########.fr       */
+/*   Updated: 2021/11/28 13:10:17 by aabounak         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,8 @@
 # include <algorithm>
 # include <cmath>
 # include <chrono>
+
+# include <pthread.h>
 
 using namespace std;
 using namespace std::chrono;
