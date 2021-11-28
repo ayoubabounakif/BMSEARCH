@@ -3,13 +3,13 @@
 At first, I implemented the most basic way to find a substring in a string
 Which is the Naive Search Algorithm
 
-For example :
+For example :<\br>
     Text[] = "AABBSAAAHWHWLLLLEEQAAAABBC";
     Pattrn = "AAAA";
 
-    I'm gonna check AAAA with AABB, if it's equal, then the string was found
-    else we increment the pointer by 1 and check again AAAA wiuth SAAA in our case
-    and so on.
+I'm gonna check AAAA with AABB, if it's equal, then the string was found
+else we increment the pointer by 1 and check again AAAA wiuth SAAA in our case
+and so on.
 
 This algorithm has an optimization which goes like :
     When a mismatch occurs after j matches,
