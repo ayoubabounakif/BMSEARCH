@@ -1,11 +1,11 @@
-## How I thought of everything
+# How I thought of everything
 
-# Compiling for C++
+## Compiling for C++
 You can change the dataset on __main__.cpp line 37.
 make ; ./a.out | grep microseconds<br>
 make ; ./a.out
 
-# Compiling for Java
+## Compiling for Java
 You can change the dataset on Main.java line 26.
 javac Main.java<br>
 java Main
