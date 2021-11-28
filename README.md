@@ -3,9 +3,9 @@
 At first, I implemented the most basic way to find a substring in a string
 Which is the Naive Search Algorithm
 
-For example :<\br>
-    Text[] = "AABBSAAAHWHWLLLLEEQAAAABBC";
-    Pattrn = "AAAA";
+For example :<br>
+    Text[] = "AABBSAAAHWHWLLLLEEQAAAABBC";<br>
+    Pattrn = "AAAA";<br>
 
 I'm gonna check AAAA with AABB, if it's equal, then the string was found
 else we increment the pointer by 1 and check again AAAA wiuth SAAA in our case
@@ -17,9 +17,9 @@ This algorithm has an optimization which goes like :
     because all characters of pattern are different.
     So we can always slide the pattern by j without missing any valid shifts.
 
-For example :
-    Text[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    Pattn  = "CDEF";
+For example :<br>
+    Text[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";<br>
+    Pattn  = "CDEF";<br>
 
 
 I also tried with the C++ find method and the Regex on Java.
