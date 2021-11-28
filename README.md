@@ -1,4 +1,4 @@
-# Thought Process
+# Compiling & Thought Process
 
 ## Compiling for C++
 You can change the dataset on __main__.cpp line 37.
@@ -10,6 +10,7 @@ You can change the dataset on Main.java line 26.
 javac Main.java<br>
 java Main
 
+## Thought Process
 
 At first, I implemented the most basic way to find a substring in a string
 Which is the Naive Search Algorithm
