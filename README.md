@@ -17,10 +17,6 @@ This algorithm has an optimization which goes like :
     because all characters of pattern are different.
     So we can always slide the pattern by j without missing any valid shifts.
 
-For example :<br>
-    Text[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";<br>
-    Pattn  = "CDEF";<br>
-
 
 I also tried with the C++ find method and the Regex on Java.
 
