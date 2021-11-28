@@ -11,7 +11,7 @@ I'm gonna check AAAA with AABB, if it's equal, then the string was found
 else we increment the pointer by 1 and check again AAAA wiuth SAAA in our case
 and so on.
 
-This algorithm has an optimization which goes like :
+This algorithm has an optimization which goes like :<br>
     When a mismatch occurs after j matches,
     we know that the first character of pattern will not match the j matched characters
     because all characters of pattern are different.
